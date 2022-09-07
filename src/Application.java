@@ -125,7 +125,7 @@ public class Application {
         SeaBord board = new SeaBord();
         board.shoot(0, 0, "m");
         board.shoot(2, 0, "h");
-        board.shoot(6, 9, "h");
+        //board.shoot(6, 9, "h");
         board.shoot(5, 5, "d");
         for (int i = 0; i < board.getField().length; i++) {
             for (int j = 0; j < board.getField()[0].length; j++) {
