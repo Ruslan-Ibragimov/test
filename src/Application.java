@@ -123,8 +123,8 @@ public class Application {
 //                + Arrays.toString(board.getField()[2]));
 
         SeaBord board = new SeaBord();
-//        board.shoot(0, 0, "m");
-//        board.shoot(2, 0, "h");
+        board.shoot(0, 0, "m");
+        board.shoot(2, 0, "h");
         board.shoot(6, 9, "h");
         board.shoot(5, 5, "d");
         for (int i = 0; i < board.getField().length; i++) {
